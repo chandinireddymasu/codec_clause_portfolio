@@ -1,0 +1,108 @@
+*{
+    padding:0;
+    margin:0;
+}
+html{
+    scroll-behavior:smooth;
+}
+.navbar{
+    display:flex;
+    justify-content:center;
+    height:50px;
+}
+.navbar::before{
+    content:"";
+    position:absolute;
+    background-color:rgb(106, 13, 213);
+    height:10%;
+    width:100%;
+    z-index:-1;
+}
+.navbar ul{
+    display:flex;
+    list-style:none;
+}
+.navbar ul li{
+    font-size:1.5rem;
+}
+.navbar ul li a{
+    padding:5px 20px;
+    text-decoration:none;
+    color:white;
+}
+.navbar ul li a:hover{
+    border-bottom:2px solid blue;
+}
+h2{
+    text-align:center;
+    font-size:3rem;
+}
+#Home p{
+    font-size:1.5rem;
+    text-align:right;
+    padding:100px;
+    font-weight:bold;
+    color:rgb(29, 33, 34);
+}
+
+#Home{
+    
+    background:url('profile.jpeg') no-repeat;
+    background-size:200px;
+   image-rendering: auto;
+    background-position: bottom center;
+    border-radius: 4px;
+    image-resolution: 2px;
+    height:50%
+}
+#About{
+    background-color:rgb(240, 19, 152);
+    height:100%;
+    width:100%;
+}
+#About p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:30px;
+    text-align:center;
+}
+.box{
+    display: inline-block;
+    height:100px;
+    width:200px;
+    background-color:rgb(27, 206, 101);
+    border-radius:20px;
+    padding:20px;
+    margin-right:70px;
+}
+.box h2{
+    color:rgb(30, 98, 216);
+    font-size:1.1rem;
+    margin-bottom:20px;
+}
+.box p{
+    text-align:center;
+    color:rgb(185, 53, 226);
+    font-size:1.0rem;
+}
+.container {
+    margin-left:20px;
+    width: 40%;
+    background-color: #ed1c1c;
+}
+.skills {
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    color: white; 
+}
+.html {width: 90%; background-color: #aa4404;} 
+.css {width: 80%; background-color: #f321ad;}
+.js {width: 70%; background-color: #c34646;} 
+.c {width: 80%; background-color: #6bd42e;}
+.python {width:80%; background-color: #bdd029;}
+.form{
+    text-align: center;
+    background-color:rgb(211, 39, 76);
+}
+.form p{
+    font-weight:bold;
+}
